@@ -1,0 +1,14 @@
+.special-list{
+  width: 1004px;
+  margin: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.special-list .wp-block-image{
+  margin-right: 16px !important;
+}
+
+.special-list .wp-block-image:nth-child(3n){
+  margin-right: 0 !important;
+}
